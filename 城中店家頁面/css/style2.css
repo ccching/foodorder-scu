@@ -1,0 +1,213 @@
+/*店家頁面*/
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family:"STFangsong","SimSun";
+    box-sizing: border-box;
+
+}
+a{
+  color: #425669;
+  text-decoration: none;
+}
+/*header*/
+.header{
+   height: 120px;
+   z-index: 999;
+   display: inline-block;
+   width: 100%;
+
+}
+.nav {
+    width: 20%;
+    height: 20%;
+    margin-left: 4%;
+}
+.nav button {
+    background-color: white;
+    border: none;
+    margin-top: 14%;
+}
+.nav hr {
+    margin-top: 2.5px;
+    width: 25px;
+    border-top: 2px solid #5a5a5a;
+    background-color: #5a5a5a;
+}
+
+.logo1{
+   width: 10%;
+   height: 10%;
+   margin-left: 10%;
+}
+.logo1 img{
+   width: 100%;
+}
+.searchbox{
+    width: 300px;
+   height: 20%;
+   margin-top: 1%;
+   margin-left: 43%;
+   outline: none;
+}
+.searchbox input{
+  width: 200px;
+   height: 34px;
+   outline: none;
+
+}
+.searchpic{
+   width: 3%;
+   margin-left: 59%;
+   margin-top: -2.1%;
+}
+.searchpic img{
+   width: 100%;
+}
+.rightbox{
+  float: right;
+  display: inline-flex;
+  margin-top: -34px;
+  margin-left: 78%;
+
+
+}
+.choose{
+  float: right;
+  font-size: 40px;
+  color: #425669;
+  margin-right:8%;
+}
+
+.chart{
+   width: 20%;
+   margin-right: 5%;
+   margin-top: -3.5%;
+}
+.chart img{
+   width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  width: 18%;
+  margin-top: -1.5%;
+  cursor: pointer;
+}
+.dropdown img{
+  width: 100%;
+}
+.dropbtn {
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  background-color: white;
+  display: none;
+  position: absolute;
+  margin-left: 10px;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #a1a9b3}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar{
+  width: 100%;
+  margin-top: 45px;
+  font-size: 18px;
+}
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  overflow: hidden;
+  background-color:#e5cecf ;
+}
+.navbar li{
+  display: inline;
+  float: left;
+}
+.navbar li a{
+   display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color:#aea9b3;
+}
+
+
+/*content*/
+.content{
+  line-height: 35px;
+  margin-top: 5%;
+  margin-left: 10%; 
+  font-size: 24px; 
+}
+.keep:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(3px);
+}
+.keep {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-weight: solid;
+  border: solid #dddddd 1px;
+  color: #fff;
+  background-color: #c0bfcf;
+  border-radius: 60%;
+  margin-left: 60%;
+  margin-top: -6%;
+}
+.keep:hover {
+  background-color: #dec6c2;
+}
+.contact{
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 20px;
+}
+.fa-line{ 
+  position: absolute;
+  margin-top: -4%;
+  color: green;
+  font-size: 70px;
+  margin-left: 35%;
+}
+.far{
+  color:#425669;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.contact img{
+  display: none;
+}
+.imgg:hover img{
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+}

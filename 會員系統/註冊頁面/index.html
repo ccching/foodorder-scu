@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>歡樂一百點 | 註冊頁面</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <form name="login" method ="post" action="headache1.php" onsubmit="return checkinput()" >
+  <div class="content">
+    <div class="login">
+      <div class="logo">
+        <img src="images/logo2.png">
+      </div>
+      <div class="ct">
+      <div class="login_name">
+        學號：<input type="text" name="login_name" required="required" id="login_name" maxlength="8" minlength="8" />
+      </div>
+      <div class="a realname">
+        真實姓名：
+        <input type="text" name="realname" required="required" id="realname" />
+      </div>
+      <div class="a class">
+        班級：<input type="text" name="class" required="required" id="class" />
+      </div>
+      <div class="a phone">
+        手機號碼：<input type="tel" name="u_phone" required="required" maxlength="10" id="u_phone" />
+      </div>
+
+      <div class="a u_email">
+        電子郵件：<input type="email" name="u_email" id="u_email" required />
+      </div>
+      <div class="a u_bday">
+        生日：<input type="date" name="u_bday" required="required" id="u_bday" />
+      </div>
+      <div class="a u_sex">
+        性別：<input type="radio" name="u_sex" value="0" id="u_sex">女性<input type="radio" name="u_sex" value="1" id="u_sex">男性
+      </div>
+      <div class="a login_pass1">
+        密碼：<input type="password" name="login_pass1" required="required" id='login_pass1' />
+      </div>
+      <div class="a login_pass2">
+        確認密碼：<input type="password" name="login_pass2" required="required" id='login_pass2' />
+      </div>
+      <div class="a action"> 
+        <a href="../登入頁面/index.php"><input type="button" value="登入" /></a>
+      </div>
+      <div class="a action"> 
+        <input type="submit" value="送出註冊" />
+      </div>
+    </div>
+    </div>
+  </div>
+  </form>
+  <script>
+        function checkinput() {
+                var pw1 = document.getElementById("login_pass1");
+                var pw2 = document.getElementById("login_pass2");
+                if ( pw1.value != pw2.value ) {
+                        window.alert ( "兩次密碼並不相同！" );
+                        document.getElementById("login_pass1").focus();
+                        return false;
+                }
+
+        }
+
+</script>
+
+  
+
+
+  <div class="bottom">
+    
+  </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+/*訂單確認*/
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family:"STFangsong","SimSun";
+    box-sizing: border-box;
+
+}
+a{
+  color: #425669;
+  text-decoration: none;
+}
+/*header*/
+.header{
+   height: 120px;
+   z-index: 999;
+   display: inline-block;
+   width: 100%;
+
+}
+.nav {
+    width: 20%;
+    height: 20%;
+    margin-left: 4%;
+}
+.nav button {
+    background-color: white;
+    border: none;
+    margin-top: 14%;
+}
+.nav hr {
+    margin-top: 2.5px;
+    width: 25px;
+    border-top: 2px solid #5a5a5a;
+    background-color: #5a5a5a;
+}
+
+.logo1{
+   width: 10%;
+   height: 10%;
+   margin-left: 10%;
+}
+.logo1 img{
+   width: 100%;
+}
+.searchbox{
+    width: 300px;
+   height: 20%;
+   margin-top: 1%;
+   margin-left: 43%;
+   outline: none;
+}
+.searchbox input{
+  width: 200px;
+   height: 34px;
+   outline: none;
+
+}
+.searchpic{
+   width: 3%;
+   margin-left: 59%;
+   margin-top: -2.1%;
+}
+.searchpic img{
+   width: 100%;
+}
+.rightbox{
+  float: right;
+  display: inline-flex;
+  margin-top: -34px;
+  margin-left: 78%;
+
+
+}
+.choose{
+  float: right;
+  font-size: 40px;
+  color: #425669;
+  margin-right:8%;
+}
+
+.chart{
+   width: 20%;
+   margin-right: 5%;
+   margin-top: -3.5%;
+}
+.chart img{
+   width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  width: 18%;
+  margin-top: -1.5%;
+  cursor: pointer;
+}
+.dropdown img{
+  width: 100%;
+}
+.dropbtn {
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  background-color: white;
+  display: none;
+  position: absolute;
+  margin-left: 10px;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #a1a9b3}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*nav*/
+.navbar{
+  width: 100%;
+  margin-top: 50px;
+  font-size: 18px;
+}.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  overflow: hidden;
+  background-color: #e5cecf;
+}
+.navbar li {
+  display: inline;
+  float: left;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #aea9b3;
+}
+/*content*/
+
+.content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 650px;
+  font-size: 18px;
+  line-height: 38px;
+}
+h1 {
+  margin-top: 80px;
+}
+.checktab {
+  position: absolute;
+  width: 440px;
+  margin-left: 100px;
+}
+.keep {
+  width: 120px;
+  height: 60px;
+  text-decoration-style: none;
+  margin-left: 560px;
+  margin-top: 70px;
+
+  }
+.keep input {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  font-size: 16px;
+  font-weight: solid;
+  letter-spacing: 3px;
+  border: solid #dddddd 1px;
+}
+.keep a {
+  text-decoration: none;
+  color: black
+}
+.keep input:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(3px);
+}
+.keep input {
+  font-size: 18px;
+  margin-right: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #c0bfcf;
+  border: none;
+  border-radius: 50%;
+}
+.keep input:hover {
+  background-color: #dec6c2;
+}
+.space{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-left: 200px;
+}
+.line {
+  margin-top: -60px;
+  margin-left:730px;
+  border:1px solid #a1a9b3;
+}
+.pic {
+  margin-top: 20px;
+  margin-left: 25px;
+  width: 200px;
+  height: 50px;
+}
+.pic img {
+  margin-right: 10px;
+  width: 100%;
+}
+.total {
+  padding-bottom: 50px;
+  font-size: 28px;
+}
+.dd{
+  position: absolute;
+  margin-top: -590px;
+  margin-left:830px; 
+  width: 500px;
+  height: 70px;
+}
+.dd img{
+  width: 100%;
+}
+
+.id {
+  font-size: 20px;
+  line-height: 80px;
+  margin-top: -440px;
+  margin-left: 870px;
+}
+.submit input{  
+  margin-left: 380px;
+  font-size: 18px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  box-shadow: 0 7px #a1a9b3;
+  background-color: #c0bfcf;
+  border: none;
+  border-radius: 13px;
+
+}
+.submit input:hover {
+  background-color: #dec6c2;
+}
+.submit input:active {
+  background-color: #dec6c2;
+  box-shadow: 0 2px #666;
+  transform: translateY(3px);
+}
+

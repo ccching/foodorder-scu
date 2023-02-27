@@ -1,0 +1,128 @@
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+/*header*/
+.header{
+   width: 100%;
+   position: fixed;
+   box-shadow: 0px 10px 7px#ddd;
+   background-color: #ffffff;
+   height: 120px;
+   z-index: 20;
+}
+.nav {
+    width: 20%;
+    height: 20%;
+    margin-left: 4%;
+}
+.nav button {
+    background-color: white;
+    border: none;
+    margin-top: 14%;
+}
+.nav hr {
+    margin-top: 2.5px;
+    width: 25px;
+    border-top: 2px solid #5a5a5a;
+    background-color: #5a5a5a;
+}
+
+.logo1{
+   width: 10%;
+   height: 10%;
+   margin-left: 10%;
+}
+.logo1 img{
+   width: 100%;
+}
+.searchbox{
+   height: 20%;
+   margin-top: 1%;
+   margin-left: 43%;
+   outline: none;
+}
+.searchbox input{
+   width: 25%;
+   height: 34px;
+   outline: none;
+
+}
+.searchpic{
+   width: 3%;
+   margin-left: 59%;
+   margin-top: -2.6%;
+}
+.searchpic img{
+   width: 100%;
+}
+.chart{
+   width: 5%;
+   margin-left: 80%;
+   margin-top: -4.3%;
+}
+.chart img{
+   width: 100%;
+}
+.order{
+   width: 5%;
+   margin-left: 87%;
+   margin-top: -5.3%;
+
+}
+.order img{
+   width: 100%;
+}
+
+/*content*/
+.content{
+  width: 100%;
+  height: 300px;
+}
+.content img{
+  margin-top: 134px;
+  width: 100%;
+
+}
+.announce{
+   margin-top: 1%;
+   display: inline-block;
+}
+.announcepic{
+   margin-top: 4%;
+   margin-left: 37%;
+   width: 10%;
+}
+.announcepic img{
+   width: 100%;
+}
+.announcetext{
+   padding: 5px;
+   color: black;
+   padding-right: 80px;
+   border-color: black;
+   border-style: solid;
+   width: 100%;
+   margin-left: 50%;
+   margin-top: -9.5%;
+   height: 25px;
+}
+.logo2{
+   width: 45%;
+   margin-left: 27%;
+   margin-top: -14%;
+}
+.logo2 img{
+   width: 100%;
+}
+.ding{
+   margin-top: -9.5%;
+   margin-left: 34.5%;
+}
+.ding button{
+  margin-right: 10%;
+   font-size: 25px;
+   padding: 5px;
+   width: 20%;
+}

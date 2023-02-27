@@ -1,0 +1,68 @@
+body{
+    margin: 0%;  
+    text-decoration: none;
+    font-family: serif;
+}
+body a{
+  text-decoration: none;
+}
+
+/*content*/
+.content{
+  position: relative;
+  display: inline-block;
+  background-image: url('../images/back.jpg');
+  height: 820px;
+  width: 100%;
+}
+.login{
+  margin-top: 8%;
+  margin-left: 30%;
+  width: 600px;
+  height: 650px;
+  background-color: white;
+  border-radius: 5%;
+}
+.logo{
+
+  width: 40%;
+  margin-left: 30%;
+}
+.logo img{
+  width: 100%;
+}
+
+
+.phone{
+    color: #656565;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 0.7cm;
+    padding-bottom: 10%;
+
+}
+.u_phone{
+    width: 40%;
+    float: right;
+    margin-right: 20%;
+}
+.u_phone{
+    border-radius: 5px;
+    border: 1.5px solid rgba(255,0,0,1.00);
+    overflow: hidden;
+    border-color:#939391 ;
+    margin-top: 0.5%;
+    height: 35px;
+    outline: none;
+}
+.u_phone input{
+  outline: none;
+}
+.b{
+  margin-left: 63%;
+}
+.b input {
+  width: 100px;
+  height: 30px;
+}

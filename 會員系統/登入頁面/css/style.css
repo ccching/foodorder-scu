@@ -1,0 +1,125 @@
+body{
+    margin: 0%;  
+    text-decoration: none;
+    font-family: serif;
+}
+body a{
+  text-decoration: none;
+}
+
+/*content*/
+.content{
+  position: relative;
+  display: inline-block;
+  background-image: url('../images/back.jpg');
+  height: 820px;
+  width: 100%;
+}
+.login{
+  margin-top: 8%;
+  margin-left: 30%;
+  width: 600px;
+  height: 650px;
+  background-color: white;
+  border-radius: 5%;
+}
+.logo{
+
+  width: 40%;
+  margin-left: 30%;
+}
+.logo img{
+  width: 100%;
+}
+
+
+.accountw{
+    color: #656565;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7cm;
+    padding-bottom: 10%;
+
+}
+.account{
+    width: 40%;
+    float: right;
+    margin-right: 20%;
+}
+.account{
+    border-radius: 5px;
+    border: 1.5px solid rgba(255,0,0,1.00);
+    overflow: hidden;
+    border-color:#939391 ;
+    margin-top: 0.5%;
+    height: 35px;
+    outline: none;
+}
+.account input{
+  outline: none;
+}
+/*.bottoml{
+  color: #656565;
+  width: 80px;
+  font-size: 20px;
+  font-family: serif;
+  border-width: 2px;
+  padding: 5px;
+}
+.b0{
+  margin-left: 40%;
+  background-color: white;
+  border-color:#92ACD1;
+  border-radius: 5px;
+
+}
+.b0:hover{
+  cursor: pointer;
+  background-color: #92ACD1;
+  color: white;
+}
+.bottoml:hover{
+  color: white;
+}
+.b1{
+  margin-left:4.5%;
+  background-color: white;
+  border-color:#92ACD1;
+  border-radius: 5px;
+
+}
+.b1:hover{
+  cursor: pointer;
+  background-color: #92ACD1;
+  color: white;
+}
+.b2{
+  margin-left: 63%;
+  margin-top: 5%;
+  background-color: white;
+  border-color:#92ACD1;
+  border-radius: 5px;
+
+}
+.b2:hover{
+  cursor: pointer;
+  background-color: #92ACD1;
+  color: white;
+}
+*/
+.b{
+  display: inline-block;
+}
+.b input {
+  width: 100px;
+  height: 30px;
+}
+.button1{
+  margin-left: 43%;
+  padding-right: 3%;
+}
+.button3{
+  position: absolute;
+  margin-left: -98.5px;
+  margin-top: 50px;
+}

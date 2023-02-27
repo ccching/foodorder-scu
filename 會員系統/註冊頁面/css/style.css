@@ -1,0 +1,55 @@
+body{
+    margin: 0%;  
+    text-decoration: none;
+    font-family: serif;
+}
+body a{
+  text-decoration: none;
+}
+input{
+  outline: none;
+  border-radius: 3px;
+  border-width: 1px;
+  height: 25px;
+  margin-left: 3%;
+}
+
+/*content*/
+.content{
+  position: relative;
+  display: inline-block;
+  background-image: url('../images/back.jpg');
+  height: 820px;
+  width: 100%;
+}
+.login{
+  margin-top: 4%;
+  margin-left: 30%;
+  width: 600px;
+  height: 730px;
+  background-color: white;
+  border-radius: 5%;
+}
+.logo{
+  width: 40%;
+  margin-left: 30%;
+}
+.logo img{
+  width: 100%;
+}
+.ct{
+  margin-left: 20%;
+  font-size: 20px;
+  color: #656565;
+}
+.a{
+  margin-top: 3%;
+
+}
+.action input{
+  width: 80px;
+}
+.action{
+  margin-right: 5%;
+  display: inline-block;
+}

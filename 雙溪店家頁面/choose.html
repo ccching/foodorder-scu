@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>歡樂一百點｜選擇障礙</title>
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	  <div class="header">
+    <div class="nav"></div>
+    <div class="logo1"><img src="images/logo1.png"></div>
+    <div class="search">
+      <form action="search.php" id="searchbox" method="post" name="searchbox">
+        <div class="searchbox">
+          <input name="searchbox" placeholder="來點什麼..." type="search">
+        </div>
+        <div class="searchpic">
+          <input type="submit" value="搜尋">
+        </div>
+      </form>
+    </div>
+    <div class="rightbox">
+      <div class="choose">
+        <a href="choose.html">
+          <i class="far fa-check-circle" title="選擇障礙點我！"></i>
+        </a>
+      </div>
+      <div class="chart">
+        <a href="../購物車/ShoppingCart.php"><img src="images/chart.png"></a>
+      </div>
+      <div class="dropdown">
+          <img src="images/order.png" title="購物車">      
+          <div class="dropdown-content">
+          <a href="../城中店家頁面/index.php">點城中</a>
+
+          <a href="../會員系統/會員資料&歷史訂單/member.php">會員資料</a>
+          <a href="../會員系統/登入頁面/logout.php">登出</a>
+        </div>
+      </div>
+  </div>
+      <nav class="navbar fixed-top">
+		 	<ul>
+		 		<li class="active"><a href="../雙溪店家頁面/index.php">首頁</a></li>
+
+		 		<li><a href="../Q&A/index.html" target="_blank">常見問題</a></li>
+		 		<li><a href="../聯絡我們/index.html" target="_blank">聯絡我們</a></li>
+
+
+		 	</ul>
+		 	</nav>
+
+<div class="content">
+	<form action="money2.php" method="post" name="money">
+	<h2>選擇價錢 : </h2><input checked name="money[]" type="checkbox" value="0">40元以下&nbsp; <input name="money[]" type="checkbox" value="1">41元～60元&nbsp;<input name="money[]" type="checkbox" value="2">61元～80元&nbsp;<input name="money[]" type="checkbox" value="3">81元～100元&nbsp;<input name="money[]" type="checkbox" value="4">100元以上<br>
+	<input type="submit" value="GO!" class="keep">
+</form>
+</div>
+<div class="contact">
+  <h2>還是選不出來嗎？</h2>
+  <i class="far fa-hand-point-right"></i>
+  交給我們幫你選吧！快掃描加入我們的官方帳號
+  <div class="imgg">
+  <i class="fab fa-line"><img src="images/qrcode.jpg" title="快掃描我～～"></i></div>
+</div>
+</body>
+</html>

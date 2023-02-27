@@ -1,0 +1,225 @@
+/*訂單確認*/
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family:"STFangsong","SimSun";
+    box-sizing: border-box;
+
+}
+a{
+  color: #425669;
+  text-decoration: none;
+}
+/*header*/
+.header{
+   height: 120px;
+   z-index: 999;
+   display: inline-block;
+   width: 100%;
+
+}
+.nav {
+    width: 20%;
+    height: 20%;
+    margin-left: 4%;
+}
+.nav button {
+    background-color: white;
+    border: none;
+    margin-top: 14%;
+}
+.nav hr {
+    margin-top: 2.5px;
+    width: 25px;
+    border-top: 2px solid #5a5a5a;
+    background-color: #5a5a5a;
+}
+
+.logo1{
+   width: 10%;
+   height: 10%;
+   margin-left: 10%;
+}
+.logo1 img{
+   width: 100%;
+}
+.searchbox{
+    width: 300px;
+   height: 20%;
+   margin-top: 1%;
+   margin-left: 43%;
+   outline: none;
+}
+.searchbox input{
+  width: 200px;
+   height: 34px;
+   outline: none;
+
+}
+.searchpic{
+   width: 3%;
+   margin-left: 59%;
+   margin-top: -2.1%;
+}
+.searchpic img{
+   width: 100%;
+}
+.rightbox{
+  float: right;
+  display: inline-flex;
+  margin-top: -34px;
+  margin-left: 78%;
+
+
+}
+.choose{
+  float: right;
+  font-size: 40px;
+  color: #425669;
+  margin-right:8%;
+}
+
+.chart{
+   width: 20%;
+   margin-right: 5%;
+   margin-top: -3.5%;
+}
+.chart img{
+   width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  width: 18%;
+  margin-top: -1.5%;
+  cursor: pointer;
+}
+.dropdown img{
+  width: 100%;
+}
+.dropbtn {
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  background-color: white;
+  display: none;
+  position: absolute;
+  margin-left: 10px;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #a1a9b3}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*nav*/
+.navbar{
+  width: 100%;
+  margin-top: 50px;
+  font-size: 18px;
+}.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  overflow: hidden;
+  background-color: #e5cecf;
+}
+.navbar li {
+  display: inline;
+  float: left;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #aea9b3;
+}
+/*content*/
+h1{
+  margin-top: 40px;
+}
+.content{
+  margin-top: 50px;
+  margin-left: 100px;
+  line-height: 35px;
+
+}
+.meal{
+  margin-top: -40px;
+}
+.img1{
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -12px;
+  width: 25px;
+  height: 15px;
+}
+.img img{
+  width: 100%;
+}
+.pic{
+  margin-top: 15px;
+  margin-left: 25px;
+  width: 200px;
+  height: 100px;
+}
+.pic img{
+  margin-right: 10px;
+  width: 100%;
+}
+table{
+  border-collapse: collapse;
+
+}
+h2{
+  text-align: center;
+  width: 160px;
+  background-color: #a1a9b3;
+  color: #ffffff;
+  font-weight: 1;
+  letter-spacing: 4px;
+}
+.back-to-top {
+    display:none;
+    position: fixed;
+    bottom: 1.5em;
+    right: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    padding: 30px;
+
+}
+
+.back-to-top:hover {    
+    text-decoration:none;
+    color:#ffffff;
+}
+.fas{
+      font-size: 60px;
+      color: #8ea5b6;
+    }
+.fas:hover{
+  color: #e8d9c4;
+}

@@ -1,0 +1,83 @@
+/*聯絡我們*/
+body{
+    margin: 0%;  
+    text-decoration: none;
+    font-family: serif;
+}
+body a{
+  text-decoration: none;
+}
+
+/*content*/
+.content{
+  position: absolute;
+  display: inline-flex;
+  background-image:url('../images/3.jpg');
+  background-position: -10px;
+  height: 820px;
+  width: 100%;
+}
+.login{
+  margin-top: 8%;
+  margin-left: 20%;
+  width: 900px;
+  height: 650px;
+  background-color: white;
+  border-radius: 5%;
+}
+.logo{
+  margin-top: 20px;
+  font-size: 44px;
+  color: #656565;
+  width: 40%;
+  margin-left: 40%;
+  padding-bottom: 40px;
+}
+.logo span{
+  margin-top: 80px;
+}
+
+
+.accountw{
+  color: #656565;
+  font-size:22px;
+  margin-left: 60px;
+  padding-bottom: 30px;
+}
+.account{
+  border-radius: 5px;
+  border: 1.5px solid rgba(255,0,0,1);
+  overflow: hidden;
+  border-color: #939391;
+  outline: none;
+  margin-left: 40px;
+
+}
+.account input{
+
+  outline: none;
+}
+
+.a input{
+  width: 140px;
+  height: 30px;
+}
+.c input,.d input{
+  width:260px;
+  height: 30px;
+}
+.e textarea {
+  font-size: 18px;
+  width:550px;
+  height: 200px;
+}
+.b{
+  display: inline-block;
+}
+.b input {
+  width: 100px;
+  height: 30px;
+}
+.button2{
+  margin-left: 650px;
+}
